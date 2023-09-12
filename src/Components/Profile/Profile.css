@@ -1,0 +1,40 @@
+
+.profile-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background-color: #2085b5;
+    min-height: 100vh;
+  }
+  
+  .profile-avatar {
+    width: 80px;
+    height: 80px;
+    background-color: #1976d2;
+  }
+  
+  .profile-title {
+    color: white;
+    margin-top: 12px;
+  }
+  
+  .profile-info-container {
+    margin-top: 24px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .profile-info-title {
+    color: #2085b5;
+    margin-bottom: 8px;
+  }
+  
+  .profile-button {
+    margin-top: 16px;
+  }
+  

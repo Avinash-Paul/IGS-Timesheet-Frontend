@@ -1,0 +1,23 @@
+/* App.css */
+.app-container {
+    display: flex;
+  }
+  
+  .sidebar-nav-closed + .app-container {
+    margin-left: 0;
+    transition: margin-left 0.3s ease-in-out;
+  }
+  
+  .sidebar-nav + .app-container {
+    margin-left: 250px; /* Same width as the sidebar */
+    transition: margin-left 0.3s ease-in-out;
+  }
+  
+  .page-content {
+    width: 100%;
+    padding: 200px; /* Adjust padding as needed */
+  }
+  
+  /* Rest of your styles */
+  
+  

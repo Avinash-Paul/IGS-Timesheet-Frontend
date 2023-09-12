@@ -1,0 +1,60 @@
+.CenterContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+  
+  .card.admin {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 16px;
+    width: 500px;
+   
+    
+  }
+  
+  
+  .card-header {
+    background-color: #2085b5;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .card-header h2 {
+    margin: 0;
+  }
+  
+  .tab-switch {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .tab-button {
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background-color: #ddd;
+    color: #333;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .tab-button.active {
+    background-color: #2085b5;
+    color: #fff;
+  }
+  
+  .tab-content {
+    background-color: #f7f7f7;
+    padding: 16px;
+    border-radius: 0 0 6px 6px;
+  }
+  

@@ -1,0 +1,42 @@
+.login-register-bg {
+  background-image: url('./teams.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.card.log {
+  width: 240px;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+
+.card input,
+.card button {
+  margin: 14px 0  ;
+}
+.logo{
+  width: 250px;
+  height: 90px;
+}
+.loginbutton{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  background-color: #2085b5;
+  color: #fff;
+}
